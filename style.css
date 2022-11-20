@@ -1,0 +1,582 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  height: 500vh;
+}
+.nav-container {
+}
+
+/* .container-fluid img {
+  height: 70px;
+  width: 90px;
+} */
+.navbar-nav {
+  margin: auto;
+}
+/* .navbar {
+  position: fixed;
+  background-color: rgb(13, 13, 78);
+  width: 100%;
+  height: 13vh;
+} */
+
+.navbar-toggler {
+  color: #fff;
+  border-color: #fff;
+}
+.navbar-toggler-icon {
+  color: #fff !important;
+}
+.navbar {
+  background-color: rgb(13, 13, 78) !important;
+  /* height: 13vh; */
+}
+
+.nav-item a {
+  color: white !important;
+  font-size: 15px;
+  font-weight: 700;
+}
+.nav-item {
+  padding-left: 20px;
+}
+.display-section {
+  background-color: rgb(6, 6, 184);
+  height: 100vh;
+}
+.Algo-diamond-section {
+  background-color: #98d4f7;
+  height: 80vh;
+}
+.prob-section {
+  background-color: rgb(64, 64, 209);
+  height: 230vh;
+}
+.doc-section {
+  background-color: #98d4f7;
+  height: 130vh;
+}
+.road-section {
+  background-color: rgb(6, 6, 184);
+  height: 100vh;
+}
+.token-section {
+  background-color: #053867;
+  height: 120vh;
+}
+.distri-section {
+  background-color: #98d4f7;
+  height: 130vh;
+}
+footer {
+  background-color: #021a58;
+  height: 60vh;
+}
+/* display  */
+.display-container {
+  margin-left: 5%;
+  padding-top: 25px;
+}
+.display-row {
+  display: flex;
+  justify-content: space-between;
+}
+.display-content {
+  color: #fff;
+}
+.image {
+  background-image: url(./img/logo_white.png);
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  background-position: center;
+  margin-top: 7px;
+}
+nav h4 {
+  color: #fff;
+  padding-left: 10px;
+}
+.display-content p {
+  font-size: 22px;
+}
+.display-content h3 {
+  font-size: 50px;
+  /* line-height: 60px; */
+}
+.wrapper {
+  display: flex;
+  color: #fff;
+  padding-left: 60px;
+}
+.display-image {
+  background-image: url(./img/banner.svg);
+  width: 1300px;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+.display-content p {
+  color: #fff;
+  padding-top: 50px;
+}
+.btn {
+  color: #fff;
+  margin-top: 40px;
+  width: 200px;
+  height: 50px;
+}
+/* section algo diamond  */
+
+.Algo-diamond {
+  text-align: center;
+}
+.Algo-diamond h2 {
+  padding-top: 150px;
+}
+.Algo-diamond p {
+  padding-top: 30px;
+}
+.para {
+  padding-top: 50px;
+}
+/* section problem & solution  */
+.prob-heading {
+  color: #fff;
+  font-weight: 600;
+  text-transform: uppercase;
+  padding-top: 150px;
+}
+.probh4 {
+  color: white;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.paraprob {
+  color: rgb(253, 243, 243);
+}
+.solh4 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+.sol {
+  color: #fff;
+}
+.col-md-12 {
+  padding-top: 150px;
+}
+.problem-image {
+  background-image: url(./img/problem.svg);
+  height: 400px;
+  width: 550px;
+  background-position: center;
+  background-size: cover;
+}
+.solution-image {
+  background-image: url(./img/solutions-graphic.png);
+  height: 450px;
+  width: 550px;
+  background-position: center;
+  background-size: cover;
+}
+/* Documentation */
+.doch2 {
+  text-transform: uppercase;
+  padding-top: 150px;
+  font-size: 35px;
+}
+.pdoc {
+  color: gray;
+  padding-top: 50px;
+}
+.paradoc {
+  color: gray;
+  padding-top: 10px;
+}
+.paradoc2 {
+  color: gray;
+  padding-top: 10px;
+}
+.whiteh4 {
+  font-size: 25px;
+}
+.Whitepaper-image {
+  background-image: url(./img/whitepaper.png);
+  height: 350px;
+  width: 500px;
+  background-position: center;
+  background-size: cover;
+  margin-left: -70px;
+}
+
+/* Roadmap */
+.roadh2 {
+  color: #fff;
+  font-size: 30px;
+  padding-top: 150px;
+  text-transform: uppercase;
+}
+.roadp {
+  color: #fff;
+  padding-top: 50px;
+  font-size: 17px;
+}
+
+/* Token */
+.tokenh2 {
+  text-transform: uppercase;
+  padding-top: 150px;
+  color: #fff;
+  font-size: 35px;
+}
+.tokenh4 {
+  font-size: 25px;
+  color: #fff;
+}
+.tokenp {
+  color: rgb(253, 243, 243);
+}
+.token-image {
+  background-image: url(./img/logo_white.png);
+  height: 300px;
+  width: 400px;
+  background-position: center;
+  background-size: cover;
+}
+/* token distribution  */
+.distri-container h3 {
+  text-align: center;
+  text-transform: uppercase;
+  padding-top: 150px;
+}
+
+.distri-row {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 150px;
+}
+
+.distri-content {
+  padding-left: 100px;
+}
+.distri-content h4 {
+  color: #000;
+}
+p {
+  color: grey;
+  padding-top: 20px;
+}
+span {
+  color: rgb(15, 15, 15);
+}
+.distri-image {
+  background-image: url(./img/token.jpeg);
+  height: 400px;
+  width: 850px;
+  background-position: center;
+  background-size: cover;
+  margin-right: 60px;
+}
+
+/* footer  */
+.footer-container {
+  margin-left: 5%;
+  margin-right: 5%;
+  padding-top: 70px;
+}
+.footer-row {
+  display: flex;
+}
+.image-wrapper {
+  display: flex;
+}
+.image-footer {
+  background-image: url(./img/logo_white.png);
+  height: 30px;
+  width: 30px;
+  background-position: center;
+  background-size: cover;
+}
+
+.footerp {
+  color: #fff;
+  padding-top: 70px;
+  width: 470px;
+  font-size: 18px;
+}
+footer h3 {
+  color: #fff;
+  padding-left: 10px;
+}
+.footer-icons {
+  color: #fff;
+  font-size: 25px;
+  margin-left: 50%;
+}
+
+.copyright {
+  text-align: center;
+  color: #fff;
+  padding-top: 30px;
+  font-size: 13px;
+}
+/* css media query  */
+@media screen and (max-width: 768px) {
+  .navbar {
+  }
+  .nav-container {
+  }
+  .wrapper {
+    padding: 0px !important;
+    margin: 0% !important;
+    margin-left: 10px !important;
+  }
+  .display-section {
+    height: 100vh;
+  }
+  .display-row {
+    flex-direction: column;
+  }
+  .display-container {
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .display-content p {
+    font-size: 15px;
+    padding: 0px !important;
+    padding-top: 30px !important;
+  }
+  .display-content {
+    text-align: center !important;
+
+    padding-top: 100px !important;
+  }
+  .btn {
+    margin: 0% !important;
+    margin-top: 20px !important;
+    color: #fff;
+    margin-top: 40px;
+    width: 120px;
+    height: 40px;
+  }
+  .display-content h3 {
+    font-size: 25px;
+  }
+  .display-image {
+    background-image: url(./img/banner.svg);
+    width: 380px;
+    height: 170px;
+    background-size: cover;
+    background-position: center;
+    margin: 0% !important;
+    margin-left: -10% !important;
+    margin-top: 25% !important;
+  }
+  .Algo-diamond-section {
+    height: 60vh;
+  }
+  .Algo-diamond h2 {
+    font-size: 20px;
+    padding: 0px !important;
+    padding-top: 70px !important;
+  }
+  .Algo-diamond p {
+    font-size: 14px;
+  }
+  .para {
+    font-size: 14px;
+  }
+  .paraprob {
+    font-size: 14px;
+  }
+  .prob-section {
+    background-color: rgb(64, 64, 209);
+    height: 270vh;
+  }
+  .prob-heading {
+    padding: 0px !important;
+    padding-top: 70px !important;
+    font-size: 20px;
+  }
+  .probh4 {
+    padding: 0px !important ;
+
+    font-size: 20px !important;
+    text-align: center;
+  }
+  .problem-image {
+    background-image: url(./img/problem.svg);
+    height: 250px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+  }
+  .solution-image {
+    background-image: url(./img/solutions-graphic.png);
+    height: 350px;
+    width: 450px;
+    background-position: center;
+    background-size: cover;
+    margin: 0% !important;
+    margin-top: 150% !important;
+  }
+  .solution-wrapper {
+    margin-top: -250% !important;
+  }
+  .solutions {
+  }
+  .solh4 {
+    font-size: 22px;
+    text-align: center;
+  }
+  .sol {
+    font-size: 14px;
+    padding: 0% !important;
+  }
+  .doc-section {
+    height: 130vh;
+  }
+  .Whitepaper-image {
+    background-image: url(./img/whitepaper.png);
+    height: 250px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    margin: 0% !important;
+    margin-left: 10px !important;
+    margin-top: -30% !important;
+  }
+  .doch2 {
+    padding: 0px !important;
+    padding-top: 50px !important;
+    font-size: 25px;
+  }
+  .pdoc {
+    color: gray;
+    padding: 0px !important;
+    padding-top: 50px !important;
+    font-size: 14px !important;
+  }
+  .paradoc {
+    color: gray;
+    padding: 0px !important;
+    font-size: 14px !important;
+  }
+  .paradoc2 {
+    color: gray;
+    padding: 0px !important;
+    font-size: 14px !important;
+  }
+  .content-area {
+    padding: 0px !important;
+  }
+  .whiteh4 {
+    padding: 0px !important;
+    padding-top: -50px !important;
+  }
+
+  .roadh2 {
+    padding: 0px !important;
+    padding-top: 60px !important;
+  }
+  .roadp {
+    font-size: 14px !important;
+  }
+  .token-section {
+    height: 120vh;
+  }
+  .token-image {
+    background-image: url(./img/logo_white.png);
+    height: 120px;
+    width: 150px;
+    background-position: center;
+    background-size: cover;
+    margin: 0% !important;
+    margin-left: 30% !important;
+    margin-top: -5% !important;
+  }
+
+  .tokenh2 {
+    padding: 0px !important;
+    padding-top: 50px !important;
+    font-size: 25px !important;
+  }
+  .tokenh4 {
+    text-align: center;
+    padding: 0px !important;
+    font-size: 25px;
+  }
+  .tokenp {
+    font-size: 13px !important;
+    color: #c2dceb;
+  }
+  .road-section {
+    height: 50vh;
+  }
+  .distri-section {
+    height: 125vh;
+  }
+  .distri-row {
+    flex-direction: column;
+  }
+  .distri-image {
+    background-image: url(./img/token.jpeg);
+    height: 230px;
+    width: 365px;
+    background-position: center;
+    background-size: cover;
+    margin: 0% !important;
+    margin-left: 23px !important;
+  }
+  .distri-container h3 {
+    padding: 0px !important;
+    padding-top: 100px !important;
+  }
+  .distri-content {
+    padding: 0px !important;
+    padding-left: 20px !important;
+    font-size: 14px !important;
+
+    padding-bottom: 50px !important;
+  }
+
+  .display-content h4 {
+  }
+  .display-content p {
+    font-size: 15px;
+  }
+  footer {
+    height: 80vh;
+  }
+  .image-wrapper {
+    padding-left: 40px;
+  }
+  .footerp {
+    color: #fff;
+    width: 380px !important;
+    font-size: 13px;
+  }
+  footer h3 {
+    color: #fff;
+  }
+  .footer-icons {
+    color: #fff;
+    font-size: 25px;
+    margin: 0% !important;
+    padding-top: 50px !important;
+    margin-left: 50px !important;
+  }
+
+  .copyright {
+    text-align: center;
+    color: #fff;
+    padding: 0px !important;
+    padding-top: 50px !important;
+    font-size: 13px;
+  }
+  .container-fluid {
+  }
+}
