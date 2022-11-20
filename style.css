@@ -15,12 +15,11 @@ body {
 .navbar-nav {
   margin: auto;
 }
-/* .navbar {
+.navbar {
   position: fixed;
   background-color: rgb(13, 13, 78);
   width: 100%;
-  height: 13vh;
-} */
+}
 
 .navbar-toggler {
   color: #fff;
